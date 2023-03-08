@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  width: 100%;
+  height: 5rem;
+  background: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  flex: 0.2;
+  color: white;
+  align-items: center;
+}
+.logo img {
+  width: 20%;
+  margin-right: 10px;
+}
+
+.Navbar {
+  display: flex;
+  flex: 0.5;
+}
+
+.Navbar ul {
+  width: 100%;
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.Navbar ul li {
+  width: 100%;
+}
+
+.Navbar ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+section {
+  width: 100%;
+  height: 30rem;
+  background: url(./src/empty-floor-front-modern-building\ 1.png);
+}
+
+.section1 {
+  width: 100%;
+  /* height: 5rem; */
+  background: white;
+  display: flex;
+  justify-content: space-between;
+}
+
+.section1a {
+  display: flex;
+  flex: 0.5;
+  padding: 2rem;
+}
+.section1b {
+  display: flex;
+  flex: 0.5;
+  background: url("./src/image\ 151.png");
+  min-height: 20rem;
+}
+
+.section11 {
+  padding: 2rem;
+}
+
+.section11 p {
+  line-height: 2rem;
+}
+.test {
+  background: linear-gradient(290deg),
+    url("./src/empty-floor-front-modern-building\ 1.png");
+}
+
+.section22 {
+  padding: 5rem;
+  display: flex;
+  flex: 0.5;
+  flex-direction: column;
+}
+
+.padding {
+  padding: 5rem 1rem;
+}
+
+.section22 p {
+  line-height: 2rem;
+}
+
+.section22 img {
+  max-height: 25rem;
+  object-fit: contain;
+}
+
+/* Media Query */
+
+@media screen and (min-width: 1300px) and (max-width: 1600px) {
+}
+
+@media screen and (max-width: 1300px) {
+}
+
+@media screen and (min-width: 1050px) and (max-width: 1300px) {
+}
+
+@media screen and (max-width: 1050px) {
+}
+
+@media screen and (max-width: 1024px) {
+}
+
+@media screen and (min-width: 700px) and (max-width: 1050px) {
+}
+
+@media screen and (max-width: 700px) {
+}
+
+@media screen and (max-width: 550px) {
+  .Navbar {
+    display: none;
+  }
+
+  .hamburger {
+    ]height: 50px;
+    width: 50px;
+    margin-top: 50%;
+  }
+
+  .hamburger image {
+    height: 100%;
+    width: 100%;
+  }
+  .section1 {
+    flex-direction: column;
+  }
+  .section1a {
+    flex-direction: column;
+  }
+  .section22 {
+    padding: 3rem 1rem;
+  }
+}
